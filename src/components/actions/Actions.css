@@ -1,0 +1,15 @@
+.actions {
+    display: none;
+  }
+  .hamburger {
+      display: flex;
+  }
+  
+  @media screen and (min-width: 812px) {
+    .actions {
+      display: flex;
+    }
+    .hamburger {
+      display: flex;
+  }
+  }
