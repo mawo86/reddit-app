@@ -1,16 +1,12 @@
 import React from 'react';
-import Hamburger from '../hamburger/Hamburger';
 import './Actions.css';
 
 export default function Actions() {
   return (
-    <div>
       <div className="actions">
-        <div>Log In</div>
-        <div>Sign Up</div>
-        <div>Profile</div>
+        <a href='#'>login</a>
+        <a href='#'>signup</a>
+        <a href='#'>profile</a>
       </div>
-      <div className="hamburger"><Hamburger /></div>
-    </div>
   );
 }

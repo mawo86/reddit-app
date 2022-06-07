@@ -1,15 +1,14 @@
 .actions {
-    display: none;
-  }
-  .hamburger {
-      display: flex;
-  }
-  
-  @media screen and (min-width: 812px) {
-    .actions {
-      display: flex;
-    }
-    .hamburger {
-      display: flex;
-  }
-  }
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.actions a {
+  text-decoration: none;
+  color: black;
+}
+
+.actions a:hover {
+  color: var(--primary-color);
+}
