@@ -1,0 +1,30 @@
+button {
+  width: 9em;
+  height: 3em;
+  font-weight: bold;
+  font-size: 11px;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+}
+
+.primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.primary:hover {
+  background-color: rgb(106, 190, 255);
+}
+
+.secondary {
+  background-color: white;
+  color: var(--primary-color);
+  margin-left: 3em;
+}
+
+.secondary:hover {
+  background-color: rgb(245, 245, 245);
+  color: rgb(106, 190, 255);
+}
+
+
